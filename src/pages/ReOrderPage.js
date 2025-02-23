@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import axios from 'axios';
-import { Button } from "../components/ui/button";
-import { Card } from "../components/ui/card";
-import { Input } from "../components/ui/input";
+import { Button } from "../components/ui/Button";
+import { Card } from "../components/ui/Card";
+import { Input } from "../components/ui/Input";
 
 export default function ReOrderPage() {
     const [searchType, setSearchType] = useState("order");
